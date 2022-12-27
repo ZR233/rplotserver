@@ -1,0 +1,1 @@
+protoc -I protos/ protos/api.proto --dart_out=grpc:lib/generated/api google/protobuf/any.proto
